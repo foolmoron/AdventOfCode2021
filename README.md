@@ -1,5 +1,5 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Advent of Code 2021
+Trying this out using Dart this time! All code is in the `aoc*.dart` files.
 
 ### Run
 `dart run bin/aoc.dart` to run everything

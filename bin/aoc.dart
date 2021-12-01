@@ -1,4 +1,4 @@
-import 'package:aoc/aoc0.dart';
+import '../aoc0.dart';
 // import 'package:aoc/aoc1.dart';
 // import 'package:aoc/aoc2.dart';
 // import 'package:aoc/aoc3.dart';
