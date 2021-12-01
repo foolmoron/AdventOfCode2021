@@ -1,7 +1,7 @@
 # Advent of Code 2021
 Trying this out using Dart this time! All code is in the `aoc*.dart` files.
 
-### Run
+## Run
 
 `dart run bin/aoc.dart` to run everything
 
