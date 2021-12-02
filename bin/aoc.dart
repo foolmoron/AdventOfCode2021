@@ -1,6 +1,6 @@
 import '../aoc0.dart';
 import '../aoc1.dart';
-// import '../aoc2.dart';
+import '../aoc2.dart';
 // import '../aoc3.dart';
 // import '../aoc4.dart';
 // import '../aoc5.dart';
@@ -33,7 +33,7 @@ void main(List<String> arguments) {
     print('AoC1:\n${aoc1()}');
   }
   if (arguments.isEmpty || arguments.contains('2')) {
-    // print('AoC2:\n${aoc2()}');
+    print('AoC2:\n${aoc2()}');
   }
   if (arguments.isEmpty || arguments.contains('3')) {
     // print('AoC3:\n${aoc3()}');
