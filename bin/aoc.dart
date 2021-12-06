@@ -2,7 +2,7 @@ import '../aoc0.dart';
 import '../aoc1.dart';
 import '../aoc2.dart';
 import '../aoc3.dart';
-// import '../aoc4.dart';
+import '../aoc4.dart';
 // import '../aoc5.dart';
 // import '../aoc6.dart';
 // import '../aoc7.dart';
@@ -39,7 +39,7 @@ void main(List<String> arguments) {
     print('AoC3:\n${aoc3()}');
   }
   if (arguments.isEmpty || arguments.contains('4')) {
-    // print('AoC4:\n${aoc4()}');
+    print('AoC4:\n${aoc4()}');
   }
   if (arguments.isEmpty || arguments.contains('5')) {
     // print('AoC5:\n${aoc5()}');
