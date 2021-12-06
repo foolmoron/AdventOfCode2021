@@ -4,7 +4,7 @@ import '../aoc2.dart';
 import '../aoc3.dart';
 import '../aoc4.dart';
 import '../aoc5.dart';
-// import '../aoc6.dart';
+import '../aoc6.dart';
 // import '../aoc7.dart';
 // import '../aoc8.dart';
 // import '../aoc9.dart';
@@ -25,7 +25,7 @@ import '../aoc5.dart';
 // import '../aoc24.dart';
 // import '../aoc25.dart';
 
-void main(List<String> arguments) {
+Future<void> main(List<String> arguments) async {
   if (arguments.isEmpty || arguments.contains('0')) {
     print('Hello world: ${calculate()}!');
   }
@@ -45,7 +45,7 @@ void main(List<String> arguments) {
     print('AoC5:\n${aoc5()}');
   }
   if (arguments.isEmpty || arguments.contains('6')) {
-    // print('AoC6:\n${aoc6()}');
+    print('AoC6:\n${aoc6()}');
   }
   if (arguments.isEmpty || arguments.contains('7')) {
     // print('AoC7:\n${aoc7()}');
@@ -104,4 +104,6 @@ void main(List<String> arguments) {
   if (arguments.isEmpty || arguments.contains('25')) {
     // print('AoC25:\n${aoc25()}');
   }
+
+  await Future.delayed(Duration(milliseconds: 100), () {});
 }
