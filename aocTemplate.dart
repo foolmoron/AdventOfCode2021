@@ -1,8 +1,18 @@
-calc1() {}
+parse(String s) {
+  return s;
+}
 
-calc2() {}
+calc1(String s) {
+  var x = parse(s);
+}
 
-aoc999() {}
+calc2(String s) {
+  var x = parse(s);
+}
+
+aoc999() {
+  return calc1(inputT);
+}
 
 const inputT = '''3''';
 
