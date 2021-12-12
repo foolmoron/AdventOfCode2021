@@ -4,10 +4,12 @@ parse(String s) {
 
 calc1(String s) {
   var x = parse(s);
+  return x;
 }
 
 calc2(String s) {
   var x = parse(s);
+  return x;
 }
 
 aoc999() {
