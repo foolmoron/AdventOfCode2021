@@ -13,7 +13,7 @@ import '../aoc9.dart';
 import '../aoc10.dart';
 import '../aoc11.dart';
 import '../aoc12.dart';
-// import '../aoc13.dart';
+import '../aoc13.dart';
 // import '../aoc14.dart';
 // import '../aoc15.dart';
 // import '../aoc16.dart';
@@ -68,7 +68,7 @@ Future<void> main(List<String> arguments) async {
     print('AoC12:\n${aoc12()}');
   }
   if (arguments.isEmpty || arguments.contains('13')) {
-    // print('AoC13:\n${aoc13()}');
+    print('AoC13:\n${aoc13()}');
   }
   if (arguments.isEmpty || arguments.contains('14')) {
     // print('AoC14:\n${aoc14()}');
