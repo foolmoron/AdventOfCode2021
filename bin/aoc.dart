@@ -22,7 +22,7 @@ import '../aoc17.dart';
 // import '../aoc19.dart';
 // import '../aoc20.dart';
 // import '../aoc21.dart';
-// import '../aoc22.dart';
+import '../aoc22.dart';
 // import '../aoc23.dart';
 // import '../aoc24.dart';
 // import '../aoc25.dart';
@@ -95,7 +95,7 @@ Future<void> main(List<String> arguments) async {
     // print('AoC21:\n${aoc21()}');
   }
   if (arguments.isEmpty || arguments.contains('22')) {
-    // print('AoC22:\n${aoc22()}');
+    print('AoC22:\n${aoc22()}');
   }
   if (arguments.isEmpty || arguments.contains('23')) {
     // print('AoC23:\n${aoc23()}');
