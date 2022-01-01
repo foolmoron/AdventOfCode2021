@@ -25,7 +25,7 @@ import '../aoc21.dart';
 import '../aoc22.dart';
 import '../aoc23.dart';
 import '../aoc24.dart';
-// import '../aoc25.dart';
+import '../aoc25.dart';
 
 Future<void> main(List<String> arguments) async {
   if (arguments.isEmpty || arguments.contains('0')) {
@@ -104,7 +104,7 @@ Future<void> main(List<String> arguments) async {
     print('AoC24:\n${aoc24()}');
   }
   if (arguments.isEmpty || arguments.contains('25')) {
-    // print('AoC25:\n${aoc25()}');
+    print('AoC25:\n${aoc25()}');
   }
 
   await Future.delayed(Duration(milliseconds: 100), () {});
